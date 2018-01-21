@@ -263,8 +263,8 @@ abstract class TelephonyConnection extends Connection
                         } else {
                             mDisplayName = notificationText;
                         }
-                        Toast.makeText(getPhone().getContext(),
-                                mDisplayName, Toast.LENGTH_LONG).show();
+                        //Toast.makeText(getPhone().getContext(),
+                        //        mDisplayName, Toast.LENGTH_LONG).show();
                         if (mOriginalConnection != null && mSsNotification.history != null) {
 
                             Bundle lastForwardedNumber = new Bundle();
